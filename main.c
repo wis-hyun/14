@@ -15,7 +15,7 @@ void main(void) {
 	for(i=0;i<26;i++){
 		pc[i]='a'+i;
 	}
-		pc[i]=0;
-		printf("%s\n", pc);
-		free(pc);
+	pc[i]=0;
+	printf("%s\n", pc);
+	free(pc);
 }

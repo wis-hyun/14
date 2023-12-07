@@ -27,7 +27,5 @@ void main(void) {
 		free(bookshelf[i]);
 	free(bookshelf);
 	
-	bookshelf= (struct Book*)malloc(3*sizeof(struct Book));
-	
 	return;
 }
